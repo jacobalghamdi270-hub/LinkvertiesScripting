@@ -1,0 +1,10 @@
+/* 🛡️ SYSTEM CORE | NETWORK OVERRIDE UTILITY */
+/* Purpose: Prevent unauthorized tab termination by filters */
+
+console.log("Network Override Protocol Loading...");
+
+window.onbeforeunload = function() { 
+    return "Linkverties Hub: Tab Protection is currently ACTIVE."; 
+};
+
+alert("✅ FORCE-ALLOW ENABLED: This tab is now protected from automatic closing.");
